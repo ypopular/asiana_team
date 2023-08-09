@@ -836,11 +836,41 @@
                 </div>
                 <div id="check_in_zone">
 
+                    <h4>원하시는 좌석의 탑승권을 미리 발급받고 공항에서 대기시간을 줄이세요.</h4>
+                    <div id="check_input">
+                        <form>
+                            <select id="select_check_type">
+                                <option value="1">예약번호</option>
+                                <option value="2">항공권번호</option>
+                            </select>
+                            <div id="select_check_detail">
+                                <input type="text" id="check_num" placeholder="8자리 숫자 또는 6자리 영문/숫자" minlength="6" maxlength="8">
+                                <input type="text" id="check_num2" placeholder="숫자 13자리" minlength="13">
+                                <input type="text" id="check_num_date" class="dateSelector" placeholder="탑승일">  
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <button type="button" id="check_in_btn">
+                                예약조회
+                            </button>
+                        </form>
+                    </div>
 
+                </div>
+                <div id="hotel_car_rental_zone">
+                    <div id="rental_top">
+                        호텔과 렌터카, 아시아나항공에서만 드리는 특별한 혜택을 확인하세요.
+                    </div>
+                    <div id="booking_box">
+                        <img src="resources/img/main_img/booking_box.jpeg" >
+                        <a href="https://sp.booking.com/?aid=2333178" target="_blank">호텔 예약하기</a>
+                    </div>
+                    <div id="rental_box">
+                        <img src="resources/img/main_img/rental_box.jpeg" >
+                        <a href="http://asianaairlines.rentalcars.com/?preflang=ko&prefcurrency=KRW&adplat=quicksearch" target="_blank">랜터카 예약하기</a>
+                    </div>
 
 
                 </div>
-                <div id="hotel_car_rental_zone"></div>
             </div>
         </div>
 

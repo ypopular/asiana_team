@@ -295,15 +295,16 @@ body.dark-overlay {
 }
 #check_in_zone{
     width: 1280px;
-    height: 250px;
+    height: 182px;
     background-color: #fff;
     border-radius: 0px 0px 5px 5px;
     display: none;
 }
 #hotel_car_rental_zone{
     width: 1280px;
-    height: 182px;
-    background-color: rgb(167, 180, 43);
+    height: 410px;
+   background-color: #fff;
+   border-radius: 0px 0px 5px 5px;
     display: none;
 }
 .quick_active{
@@ -1070,4 +1071,134 @@ body.dark-overlay {
 }
 #seat_class_check_btn:hover{
     filter: brightness(0.8);
+}
+#check_in_zone h4{
+    font-size: 18px;
+    color: #222;
+    float: left;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+#check_input{
+    width: 1210px;
+    height: 46px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+#select_check_type{
+    width: 215px;
+    height: 46px;
+    font-size: 15px;
+    color: #222;
+    font-weight: 700;
+    padding-right: 15px;
+    background-color: #f3f3f3 ;
+    border: 1px solid #f3f3f3;
+    border-bottom: 1px solid #ddd;
+    margin-right: 20px;
+    float: left;
+}
+#select_check_detail{
+    width: 700px;
+    height: 46px;
+    float: left;
+    position: relative;
+}
+#check_num{
+    width: 335px;
+    height: 46px;
+    background-color: #fff;
+    border-bottom: 2px solid #999;
+    font-size: 16px;
+    float: left;
+    margin-right: 20px;
+}
+#check_num2{
+    width: 335px;
+    height: 46px;
+    background-color: #fff;
+    border-bottom: 2px solid #999;
+    font-size: 16px;
+    float: left;
+    margin-right: 20px;
+    display: none;
+}
+#check_num_date{
+    width: 335px;
+    height: 46px;
+    background-color: #fff;
+    border-bottom: 2px solid #999;
+    font-size: 16px;
+    float: left;
+}
+#select_check_detail i{
+    font-size: 22px;
+    position: absolute;
+    right: 14px;
+    bottom: 13px;
+    color: #ccc;
+}
+#check_in_btn{
+    width: 250px;
+    height: 46px;
+    border: 1px solid #6d6e71;
+    background-color: #6d6e71;
+    color: #fff;
+    float: left;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+#check_in_btn:hover{
+    /* filter: brightness(0.8); */
+    background-color: #505153;
+}
+#rental_top{
+    width: 1100px;
+    height: 50px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 85px;
+    background-color: #f2f2f2;
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+}
+#booking_box{
+    width: 549px;
+    height: 260px;
+    float: left;
+    border-right: 1px solid #ccc;
+    margin-left: 85px;
+    margin-top: 25px;
+}
+#rental_box{
+    width: 550px;
+    height: 260px;
+    float: left;
+    margin-top: 25px;
+}
+#hotel_car_rental_zone img{
+    width: 549px;
+    height: 150px;
+    float: left;
+}
+#hotel_car_rental_zone a{
+    width: 252px;
+    height: 60px;
+    background-color: #6d6e71;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    margin-left: 150px;
+    margin-top: 30px;
 }

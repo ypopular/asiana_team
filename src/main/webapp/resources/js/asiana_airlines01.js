@@ -638,6 +638,23 @@ $("#destination").on("click",function(){
         $("#seat_class").val(textPoint);
     });
 
+    $(document).ready(function() {
+        $("#select_check_type").change(function() {
+            var selectedValue = $(this).val();
+           
+
+            if (selectedValue === "1") {
+                $("#check_num2").hide();
+                $("#check_num").show();
+            } else if (selectedValue === "2") {
+                $("#check_num").hide();
+                $("#check_num2").show();
+            }
+        });
+    });
+
+
+
 });
 
 var fp = flatpickr(document.getElementById("boarding_date"), {
@@ -648,6 +665,11 @@ var fp = flatpickr(document.getElementById("boarding_date"), {
 
   
   var fp2 = flatpickr(document.getElementById("boarding_date2"), {
+    'monthSelectorType': 'static',
+    'locale': 'ko',
+  });
+
+  var fp3 = flatpickr(document.getElementById("check_num_date"), {
     'monthSelectorType': 'static',
     'locale': 'ko',
   });
