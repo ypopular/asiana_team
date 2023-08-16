@@ -12,4 +12,15 @@ public class MemberController {
 		
 		return "admin/infra/ex";
 	}
+	
+	
+	@RequestMapping("/admin_member")
+	public String admin_member() {
+		
+		return "admin/infra/admin_member";
+		
+	}
+	
+	
+	
 }
