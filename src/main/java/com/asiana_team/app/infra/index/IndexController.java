@@ -10,6 +10,10 @@ public class IndexController {
 	public String asiana_main() {
 		return "user/infra/asiana_main";
 	}
+	@RequestMapping(value="/asiana_reservation")
+	public String asiana_reservation() {
+		return "user/infra/asiana_reservation";
+	}
 	
 	
 	
