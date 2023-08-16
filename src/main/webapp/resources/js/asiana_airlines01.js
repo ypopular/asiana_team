@@ -252,7 +252,7 @@ document.addEventListener("visibilitychange", function() {
         var isQuickReservationOpen = false;
       
         
-        $("#quick_reservation_wrap").click(function(e) {
+        $("#quick_reservation_wrap,.flatpickr-calendar").click(function(e) {
           e.stopPropagation(); // Prevent the click event from propagating to the document
          
           $("#boarding_date").css('pointer-events', 'auto');
@@ -652,6 +652,8 @@ $("#destination").on("click",function(){
             }
         });
     });
+    
+    
 
 
 
