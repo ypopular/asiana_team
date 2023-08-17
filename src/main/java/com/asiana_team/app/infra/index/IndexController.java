@@ -15,6 +15,27 @@ public class IndexController {
 		return "user/infra/asiana_reservation";
 	}
 	
+	@RequestMapping(value="/asiana_ticket")
+	public String asiana_ticket() {
+		return "user/infra/asiana_ticket";
+	}
+	
+	@RequestMapping(value="/asiana_login")
+	public String asiana_login() {
+		return "user/infra/asiana_login";
+	}
+	
+	@RequestMapping(value="/asiana_join")
+	public String asiana_join() {
+		return "user/infra/asiana_join";
+	}
+	
+	@RequestMapping(value="/asiana_mypage")
+	public String asiana_mypage() {
+		return "user/infra/asiana_mypage";
+	}
+	
+	
 	
 	
 }
