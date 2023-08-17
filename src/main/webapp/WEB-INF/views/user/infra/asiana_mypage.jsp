@@ -35,7 +35,7 @@
             <div id="top_logo"><a href="#"><img src="resources/img/asiana_mypage/logo_header.png" ></a></div>
             <nav id="nav">
                 <ul>
-                    <li><a id="reservation_title" href="#">예약</a></li>
+                    <li><a id="reservation_title" href="asiana_reservation">예약</a></li>
                     <li><a id="travel_preparation_title" href="#">여행 준비</a></li>
                     <li><a id="travel_title" href="#">여행</a></li>
                     <li><a id="asiana_title" href="#">아시아나 항공</a></li>
@@ -54,7 +54,7 @@
                     <div id="reservation_nav_wrap">
                       <div class="nav_box">
                         <ul>
-                            <li><a href="#">항공권 예약</a></li>
+                            <li><a href="asiana_reservation">항공권 예약</a></li>
                             <li><a href="#">최저가 간편조회</a></li>
                             <li><a href="#">신용카드 혜택</a></li>
                             <li><a href="#">예약 안내</a></li>

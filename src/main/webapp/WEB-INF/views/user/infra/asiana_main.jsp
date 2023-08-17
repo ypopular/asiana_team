@@ -40,7 +40,7 @@
                 <div id="utill_menu">
                     <ul>
                         <li>
-                            <a href="#">로그인</a>
+                            <a href="asiana_login">로그인</a>
                         </li>
                         <li>
                             <a href="#">이벤트</a>
@@ -58,7 +58,7 @@
                 <nav id="nav">
                     <ul>
                         <li>
-                            <a id="reservation_title" href="#">예약</a>
+                            <a id="reservation_title" href="asiana_reservation">예약</a>
                         </li>
                         <li>
                             <a id="travel_preparation_title" href="#">여행 준비</a>
@@ -77,7 +77,7 @@
                         <a href="#"><img src="resources/img/main_img/gnb_ico_chatbot_off.png"></a>
                     </div>
                     <div id="myasiana_area">
-                        <a href="#"><img src="resources/img/main_img/gnb_ico_myasiana_off.png"></a>
+                        <a href="asiana_mypage"><img src="resources/img/main_img/gnb_ico_myasiana_off.png"></a>
                     </div>
                     <div id="search_area">
                         <a href="#"><img src="resources/img/main_img/gnb_ico_search_off.png"></a>
@@ -91,7 +91,7 @@
                         <div class="nav_box">
                             <ul>
                                 <li>
-                                    <a href="#">항공권 예약</a>
+                                    <a href="asiana_reservation">항공권 예약</a>
                                 </li>
                                 <li>
                                     <a href="#">최저가 간편조회</a>
@@ -113,13 +113,13 @@
                         <div class="nav_box">
                             <ul>
                                 <li>
-                                    <a href="#">예약 조회</a>
+                                    <a href="asiana_mypage">예약 조회</a>
                                 </li>
                                 <li>
-                                    <a href="#">예약 내역</a>
+                                    <a href="asiana_mypage">예약 내역</a>
                                 </li>
                                 <li>
-                                    <a href="#">항공권 구매 내역</a>
+                                    <a href="asiana_mypage">항공권 구매 내역</a>
                                 </li>
                             </ul>
                         </div>
