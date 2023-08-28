@@ -20,6 +20,8 @@
    <script src="resources/js/jquery-3.6.4.min.js"></script>
    <script src="resources/js/asiana_header_footer.js"></script>
    <script src="resources/js/asiana_ticket.js"></script>
+   
+   
 </head>
 <body>
     <header>
@@ -33,7 +35,7 @@
             </div>
         </div>
         <div id="header_bottom">
-            <div id="top_logo"><a href="#"><img src="resources/img/main_img/logo_header.png" ></a></div>
+            <div id="top_logo"><a href="asiana_main"><img src="resources/img/main_img/logo_header.png" ></a></div>
             <!-- <nav id="nav">
                 <ul>
                     <li><a id="reservation_title" href="#">예약</a></li>

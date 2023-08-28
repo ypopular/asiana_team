@@ -587,7 +587,7 @@
                             </div>
                             <div id="go_check">
                                 <button type="button">
-                                    <span>조회</span>
+                                    <a href="asiana_ticket">조회</a>
                                 </button>
                             </div>
                         </div>

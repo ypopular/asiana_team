@@ -12,11 +12,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>asiana_airlines</title>
     <link rel="stylesheet" href="resources/css/asiana_mypage.css">
+    
+    
     <script src="https://kit.fontawesome.com/f0e73cfa04.js" crossorigin="anonymous"></script>
     <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
             crossorigin="anonymous"></script>
+            
+    <link rel="stylesheet" href="resources/css/asiana_header_footer.css">
    <script src="resources/js/jquery-3.6.4.min.js"></script>
    <script src="resources/js/asiana_header_footer.js"></script>
 </head>
@@ -32,7 +36,7 @@
             </div>
         </div>
         <div id="header_bottom">
-            <div id="top_logo"><a href="#"><img src="resources/img/asiana_mypage/logo_header.png" ></a></div>
+            <div id="top_logo"><a href="asiana_main"><img src="resources/img/asiana_mypage/logo_header.png" ></a></div>
             <nav id="nav">
                 <ul>
                     <li><a id="reservation_title" href="asiana_reservation">예약</a></li>

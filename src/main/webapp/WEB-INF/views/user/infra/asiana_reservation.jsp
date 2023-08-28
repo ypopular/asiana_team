@@ -9,18 +9,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asiana Travel Route</title>
+    <title>asiana_reservation</title>
+    
     <link rel="stylesheet" href="resources/css/asiana_02.css">
-    <script src="js/jquery-3.6.4.min.js"></script>
+    
+    <script src="resources/js/jquery-3.6.4.min.js"></script>
     <script src="https://kit.fontawesome.com/b2daa60225.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script src="resources/js/asiana_header_footer.js"></script>
+  
+     
+    
     <link rel="stylesheet" href="resources/css/asiana_header_footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/material_orange.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="https://npmcdn.com/flatpickr/dist/l10n/ko.js"></script>
+    
+    
+      <script src="resources/js/asiana_header_footer.js"></script>
+     
 </head>
 <body>
     <header>
@@ -34,7 +42,7 @@
             </div>
         </div>
         <div id="header_bottom">
-            <div id="top_logo"><a href="#"><img src="resources/img/main_img/logo_header.png"></a></div>
+            <div id="top_logo"><a href="asiana_main"><img src="resources/img/main_img/logo_header.png"></a></div>
             <nav id="nav">
                 <ul>
                     <li><a id="reservation_title" href="#">예약</a></li>
@@ -337,7 +345,7 @@
                         <button type="button" disabled>퍼스트</button>
                     </form>
                     <div class="seatRight">
-                        <button class="flyViewBtn">항공권 조회</button>
+                        <button class="flyViewBtn"><a href="asiana_ticket">항공권 조회</a></button>
                     </div>
                 </div>
                 <div class="greyBox">
@@ -637,6 +645,7 @@
             </div>
         </div>
     </div>
-    <script src="resources/js/asiana_02.js"></script>
+   
+   <script src="resources/js/asiana_02.js"></script>
 </body>
 </html>

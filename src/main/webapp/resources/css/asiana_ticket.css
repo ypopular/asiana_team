@@ -770,7 +770,7 @@ address ul li span{
     margin-top: 20px;
     width: 250px;
     height: 23px;
-    background: url(../img/mainicon.png);
+    background: url(../img/main_img/mainicon.png);
     background-position: 0 -145px;
     float: left;
 }
@@ -782,7 +782,7 @@ address ul li span{
 #logo02{
     width: 175px;
     height: 60px;
-    background: url(../img/new_logo_skytrax_ko.png)  0 0 no-repeat;
+    background: url(../img/main_img/new_logo_skytrax_ko.png)  0 0 no-repeat;
     background-size: auto 60px;
     float: left;
     margin-left: 30px;
@@ -791,7 +791,7 @@ address ul li span{
 #logo03{
     width: 163px;
     height: 55px;
-    background: url(../img/mainicon.png);
+    background: url(../img/main_img/mainicon.png);
     background-repeat: no-repeat;
     background-position: 0 -294px;
     float: left;
@@ -827,7 +827,7 @@ address ul li span{
     width: 30px;
     height: 30px;
     display: block;
-    background: url(../img/mainicon.png);
+    background: url(../img/main_img/mainicon.png);
     background-repeat: no-repeat;
     background-position: 0px -230px;
 }
@@ -838,7 +838,7 @@ address ul li span{
     width: 30px;
     height: 30px;
     display: block;
-    background: url(../img/mainicon.png);
+    background: url(../img/main_img/mainicon.png);
     background-repeat: no-repeat;
     background-position: -31px -230px;
 }
@@ -849,7 +849,7 @@ address ul li span{
     width: 30px;
     height: 30px;
     display: block;
-    background: url(../img/mainicon.png);
+    background: url(../img/main_img/mainicon.png);
     background-repeat: no-repeat;
     background-position: -124px -230px;
 }
@@ -860,7 +860,7 @@ address ul li span{
     width: 30px;
     height: 30px;
     display: block;
-    background: url(../img/mainicon.png);
+    background: url(../img/main_img/mainicon.png);
     background-repeat: no-repeat;
     background-position: -62px -230px;
 }
@@ -871,7 +871,7 @@ address ul li span{
     width: 30px;
     height: 30px;
     display: block;
-    background: url(../img/mainicon.png);
+    background: url(../img/main_img/mainicon.png);
     background-repeat: no-repeat;
     background-position: -155px -230px;
 }
@@ -905,7 +905,7 @@ address ul li span{
     width: 60px;
     height: 60px;
     float: left;
-    background: url(../img/mainicon.png);
+    background: url(../img/main_img/mainicon.png);
     background-repeat: no-repeat;
     background-position: -279px -219px;
 }
@@ -916,7 +916,7 @@ address ul li span{
     width: 60px;
     height: 60px;
     float: left;
-    background: url(../img/mainicon.png);
+    background: url(../img/main_img/mainicon.png);
     background-repeat: no-repeat;
     background-position: -340px -219px;
 }

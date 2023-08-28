@@ -27,17 +27,17 @@
         <div id="header_top">
             <div id="utill_menu">
                 <ul>
-                    <li><a href="#">로그인</a></li>
+                    <li><a href="asiana_login">로그인</a></li>
                     <li><a href="#">이벤트</a></li>
                     <li><a href="#">고객서비스</a></li>
                 </ul>
             </div>
         </div>
         <div id="header_bottom">
-            <div id="top_logo"><a href="#"><img src="resources/img/asiana_login/logo_header.png" ></a></div>
+            <div id="top_logo"><a href="asiana_main"><img src="resources/img/asiana_login/logo_header.png" ></a></div>
             <nav id="nav">
                 <ul>
-                    <li><a id="reservation_title" href="#">예약</a></li>
+                    <li><a id="reservation_title" href="asiana_reservation">예약</a></li>
                     <li><a id="travel_preparation_title" href="#">여행 준비</a></li>
                     <li><a id="travel_title" href="#">여행</a></li>
                     <li><a id="asiana_title" href="#">아시아나 항공</a></li>
@@ -46,7 +46,7 @@
             </nav>
             <div id="nav_right">
                 <div id="chatbot_area"><a href="#"><img src="resources/img/asiana_login/gnb_ico_chatbot_off.png"></a></div>
-                <div id="myasiana_area"><a href="#"><img src="resources/img/asiana_login/gnb_ico_myasiana_off.png"></a></div>
+                <div id="myasiana_area"><a href="asiana_mypage"><img src="resources/img/asiana_login/gnb_ico_myasiana_off.png"></a></div>
                 <div id="search_area"><a href="#"><img src="resources/img/asiana_login/gnb_ico_search_off.png"></a></div>
             </div>
             
@@ -56,7 +56,7 @@
                     <div id="reservation_nav_wrap">
                       <div class="nav_box">
                         <ul>
-                            <li><a href="#">항공권 예약</a></li>
+                            <li><a href="asiana_reservation">항공권 예약</a></li>
                             <li><a href="#">최저가 간편조회</a></li>
                             <li><a href="#">신용카드 혜택</a></li>
                             <li><a href="#">예약 안내</a></li>
@@ -66,9 +66,9 @@
                       </div>
                       <div class="nav_box">
                         <ul>
-                            <li><a href="#">예약 조회</a></li>
-                            <li><a href="#">예약 내역</a></li>
-                            <li><a href="#">항공권 구매 내역</a></li>
+                            <li><a href="asiana_mypage">예약 조회</a></li>
+                            <li><a href="asiana_mypage">예약 내역</a></li>
+                            <li><a href="asiana_mypage">항공권 구매 내역</a></li>
                         </ul>
                       </div>
                       <div class="nav_box">
@@ -240,10 +240,7 @@
     <div id="wrap">
         <h1>로그인</h1>
         <div class="wrap_s1">
-            <a href="#" class="member">
-                <i class="fa-solid fa-check"></i>
-                <p>로그인</p>
-            </a>
+           
             <!-- <a href="#" class="nonmember">
                 <p>비로그인 예약조회</p>
             </a> -->

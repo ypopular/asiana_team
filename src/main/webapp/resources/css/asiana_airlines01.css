@@ -365,6 +365,9 @@ body.dark-overlay {
     float: left;
     border-radius: 4px;
 }
+#go_check a{
+	color:#fff;
+}
 .go_check_active{
     background-color: #d60815 !important;
 }

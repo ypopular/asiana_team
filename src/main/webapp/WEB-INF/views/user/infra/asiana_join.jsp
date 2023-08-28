@@ -32,7 +32,7 @@
             </div>
         </div>
         <div id="header_bottom">
-            <div id="top_logo"><a href="#"><img src="resources/img/asiana_login/logo_header.png" ></a></div>
+            <div id="top_logo"><a href="asiana_main"><img src="resources/img/asiana_login/logo_header.png" ></a></div>
             <nav id="nav">
                 <ul>
                     <li><a id="reservation_title" href="#">예약</a></li>

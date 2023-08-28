@@ -27,6 +27,7 @@ li{
     background-color: rgba(0, 0, 0, .6);
     padding-left: 50px;
     box-sizing: border-box;
+    float:left;
 }
 .locationBar>ul{
     width: 100%;
@@ -228,6 +229,9 @@ h4{
     cursor: pointer;
     float: right;
     margin-right: 10px;
+}
+.flyViewBtn a{
+	color: #fff;
 }
 .greyBox{
     margin-top: 30px;
