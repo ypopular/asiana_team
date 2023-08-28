@@ -538,10 +538,10 @@
     if (event.target.tagName === 'IMG' || event.target.tagName === 'A') {
         var image = document.getElementById('payImage');
         // 이미지의 src 속성을 변경하여 다른 이미지로 교체
-        if (image.src.endsWith('img/ico_pay08.png')) {
-            image.src = 'img/ico_pay08_o.png'; // 새로운 이미지 경로를 설정
+        if (image.src.endsWith('resources/img/asiana_ticket/ico_pay08.png')) {
+            image.src = 'resources/img/asiana_ticket/ico_pay08_o.png'; // 새로운 이미지 경로를 설정
         } else {
-            image.src = 'img/ico_pay08.png'; // 원래 이미지 경로로 복원
+            image.src = 'resources/img/asiana_ticket/ico_pay08.png'; // 원래 이미지 경로로 복원
         }
         var aTag = event.target.closest('.kakaopay');
         aTag.classList.toggle('clicked');
